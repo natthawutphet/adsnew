@@ -1,0 +1,34 @@
+/* สไตล์ของ popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+/* สไตล์สำหรับแสดง popup */
+.popup.show {
+  display: block;
+}
+
+/* สไตล์ของปุ่มปิด */
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: #888;
+}
+
+/* สไตล์ข้อความใน popup */
+.popup-content {
+  font-size: 16px;
+  margin-bottom: 10px;
+}

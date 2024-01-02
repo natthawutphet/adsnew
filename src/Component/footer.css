@@ -1,0 +1,14 @@
+/* สไตล์สำหรับ footer */
+.site-footer {
+    background-color: #333; /* สีพื้นหลัง */
+    color: #fff; /* สีตัวอักษร */
+    padding: 20px; /* การเพิ่มช่องว่างขอบ */
+    text-align: center; /* จัดข้อความตรงกลาง */
+  }
+  
+  /* สไตล์สำหรับเนื้อหาใน footer */
+  .footer-content {
+    max-width: 800px; /* กำหนดความกว้างสูงสุด */
+    margin: 0 auto; /* จัดข้อความตรงกลางใน footer */
+  }
+  

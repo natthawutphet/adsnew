@@ -1,0 +1,22 @@
+.Facebook {
+    background: url('facebook-ads.jpg');
+    height: 600px;
+    background-size: 100% ;
+}
+
+.sdowloads {
+    height: 500px;
+}
+
+.dowloads {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.dowloads button {
+    margin: 25px;
+    font-size: 1.5rem;
+    padding: 0px 15px;
+    border-radius: 15px;
+    background-color: rgb(0, 255, 85);
+}
